@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  padding: 32px 32px;
+  min-height: 80px;
+  background: #1f1f1f;
+}
+
+nav > a {
+  vertical-align: bottom;
+}
+
+nav img {
+  max-height: 48px;
+  background-color: white;
+}
+
+nav ul,
+nav ul li,
+.spacer {
+  display: inline-block;
+}
+
+.spacer {
+  /* Parent width - Logo width - Menu <ul> width */
+  width: calc(100% - 132px - 205px);
+}
+
+nav ul {
+  margin-bottom: 15px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+#last-item {
+  margin-right: 0px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  color: #00bfff;
+}
+
+nav ul li a:hover {
+  color: rgb(229, 145, 0);
+}
+
+nav ul li a:active {
+  color: rgb(92, 229, 0);
+}
+
+#current-page {
+  color: aquamarine;
+}
+
+main {
+  min-height: 3000px;
+}
+
+/****************** index.html + floated left ******************/
+.index-article-picture {
+  /* display: block;  */
+  float: left;
+}
+
+.index-article-picture .hamster-img {
+  margin: 16px;
+  border: solid 3px #333;
+  max-width: 380px;
+}
+
+.index-textbox {
+  /* clear: right; */
+  margin: 16px;
+  border: solid 1px rgb(229, 145, 0);
+  padding: 16px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+.index-textbox .post-title {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.index-textbox .post-info {
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.index-textbox .post-paragraph {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.index-textbox .last-paragraph {
+  margin-bottom: 24px;
+}
+
+/****************** about.html + floated right ******************/
+.about-article-picture {
+  /* display: block;  */
+  float: right;
+}
+
+.about-article-picture .hamster-img {
+  margin: 16px;
+  border: solid 3px #333;
+  max-width: 380px;
+}
+
+.about-textbox {
+  /* clear: right; */
+  margin: 16px;
+  border: solid 1px rgb(229, 145, 0);
+  padding: 16px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+.about-textbox .post-title {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.about-article-picture .post-info {
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.about-textbox .post-paragraph {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.about-textbox .last-paragraph {
+  margin-bottom: 24px;
+}
+
+/****************** contact.html + clear both ******************/
+.contact-article-picture .hamster-img {
+  /* display: block;  */
+  margin: 16px;
+  border: solid 3px #333;
+  width: 700px;
+  float: left;
+}
+
+.contact-article-picture .hamster-img2 {
+  margin: 16px;
+  border: solid 3px #333;
+  width: 700px;
+  float: right;
+}
+
+.contact-textbox {
+  margin: 16px;
+  border: solid 1px rgb(229, 145, 0);
+  padding: 16px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+.contact-textbox .post-title {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.contact-textbox .post-info {
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.contact-textbox .post-paragraph {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.contact-textbox .last-paragraph {
+  margin-bottom: 24px;
+}
+
+p {
+  color: #1f1f1f;
+}
+
+.button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: lightgray;
+  padding: 6px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgb(229, 145, 0);
+}
+
+.button a {
+  color: white;
+}
+
+.button a:active {
+  color: rgb(92, 229, 0);
+}
+
+/* .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 20px;
+  } 
+  
+  .categories {
+    color: #bdbdbd;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .asidenav ul li {
+    display: block;
+    margin: 10px 10px;
+  } */
+
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.ftnav {
+  text-align: center;
+}
+
+.ftnav ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.ftnav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p-ft {
+  color: white;
+}
